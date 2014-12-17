@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.juniper.jspace</groupId>
+    <artifactId>ui-ems_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>ui-ems</description>
+    <version>0.1.1</version>
+    <name>ui-ems</name>
+    <organization>
+        <name>net.juniper.jspace</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.4</version>
+        </dependency>
+        <dependency>
+            <groupId>net.juniper.jspace</groupId>
+            <artifactId>ui-core_2.11</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.juniper.jspace</groupId>
+            <artifactId>ui-base_2.11</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.juniper.jspace</groupId>
+            <artifactId>easy-rest-core_2.11</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>JSpaceMavenRepo</id>
+            <name>JSpace Maven Repo</name>
+            <url>https://raw.github.com/jnpr-juntaod/mavenrepo/master/release/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
